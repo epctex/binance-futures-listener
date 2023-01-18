@@ -27,6 +27,8 @@ The input of this scraper should be JSON containing the list of pages on Binance
 | email               | String  | (Optional) Email address you want to get notified by.                                                                                                                                                       |
 | webhookURL               | String  | (Optional) Webhook URL that you want to trigger on the notifications.                                                                                                                                                       |
 | proxy                | Object  | Proxy configuration                                                                                                                                                                                            |
+
+
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
 
