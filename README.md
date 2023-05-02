@@ -19,15 +19,15 @@ This scraper is under active development. If you have any feature requests you c
 
 ## Input Parameters
 
-The input of this scraper should be JSON containing the list of pages on Binance Futures Listener. Required fields are:
+The input of this scraper should be JSON containing the list of pages on Binance Futures Listener. Possible fields are:
 
-| Field                | Type    | Description                                                                                                                                                                                                    |
-| -------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| traderId               | String  | (Required) Trader ID that you want to listen via Binance Futures Listener.                                                                                                                                                       |
-| email               | String  | (Optional) Email address you want to get notified by.                                                                                                                                                       |
-| webhookURL               | String  | (Optional) Webhook URL that you want to trigger on the notifications.                                                                                                                                                       |
-| proxy                | Object  | Proxy configuration                                                                                                                                                                                            |
+- `traderId`: (Required) (String) Trader ID that you want to listen via Binance Futures Listener.
 
+- `email`: (Optional) (String) Email address you want to get notified by.
+
+- `webhookURL`: (Optional) (String) Webhook URL that you want to trigger on the notifications.
+
+- `proxy`: (Required) (Proxy Object) Proxy configuration.
 
 This solution requires the use of **Proxy servers**, either your own proxy servers or you can use [Apify Proxy](https://www.apify.com/docs/proxy).
 
