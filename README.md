@@ -61,3 +61,6 @@ You can manage the results in any languague (Python, PHP, Node JS/NPM). See the 
 ## Tips
 
 The actor runs indefinitely. It automatically caches the data per each trader and preserves the positions for that specific user. The automation retrieves the data every second. Meaning that you'll be immediately notified whenever a change happens.
+
+## Contact
+Please visit us through [epctex.com](https://epctex.com) to see all the products that is available for you. If you are looking for any custom integration or so, please reach out to us through the chat box in [epctex.com](https://epctex.com). In need of support? [devops@epctex.com](mailto:devops@epctex.com) is at your service.
